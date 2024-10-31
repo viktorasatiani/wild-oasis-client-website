@@ -1,5 +1,3 @@
-import Navigation from '../_components/Navigation';
-
 export const metadata = {
   title: 'Account',
 };
@@ -7,7 +5,9 @@ export const metadata = {
 function Page() {
   return (
     <div>
-      <h1>account Page</h1>
+      <h2 className='font-semibold text-2xl text-accent-400 mb-7'>
+        Welcome Viktor
+      </h2>
     </div>
   );
 }
